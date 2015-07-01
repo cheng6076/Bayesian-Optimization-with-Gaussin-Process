@@ -1,6 +1,7 @@
 # Bayesian Optimization (BO) with Expected Improvement.
 
-The code implements a Bayesian optimizer with Gaussian process for tuning parameters. Expected Improvement is used as the standard when choosing the next point for evaluation. The implementation is in bo.py. 
+## Introduction
+The code implements a Bayesian optimizer with Gaussian process for tuning hyper-parameters. Expected Improvement is used as the standard when choosing the next point for evaluation. The implementation is in bo.py. 
 
 As an example, the optimizer is used for tuning parameters of a random forest classifier, which is then used for classifying digits in the MNIST dataset.
 
